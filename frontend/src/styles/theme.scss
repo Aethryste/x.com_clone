@@ -1,0 +1,25 @@
+// Theme globals
+html, body {
+  background: black;
+  color: white;
+  font-family: ChirpRegular, sans-serif;
+  font-weight: 100;
+}
+
+// Fonts
+@font-face {
+  font-family: 'ChirpRegular';
+  src:  url('src/assets/font/chirp-regular-web.woff') format('woff')
+}
+@font-face {
+  font-family: 'ChirpBold';
+  src:  url('src/assets/font/chirp-bold-web.woff') format('woff')
+}
+@font-face {
+  font-family: 'ChirpHeavy';
+  src:  url('src/assets/font/chirp-heavy-web.woff') format('woff')
+}
+@font-face {
+  font-family: 'ChirpMedium';
+  src:  url('src/assets/font/chirp-medium-web.woff') format('woff')
+}
