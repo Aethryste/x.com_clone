@@ -79,6 +79,12 @@ export default {
                        :is-first="index === 0"
       />
       <button class="button-post">Post</button>
+      <div class="signed-in-user">
+        <div class="user-icon"/>
+        <div class="user-displayName">John Doe</div>
+        <div class="user-userName">@DohnJoe</div>
+        <div class="user-settings"/>
+      </div>
     </div>
   </header>
 </template>
@@ -111,6 +117,39 @@ export default {
       border: none;
       border-radius: 2em;
       cursor: pointer;
+    }
+    .signed-in-user {
+      border: 1px solid white;
+      border-radius: 2em;
+      width: 90%;
+      height: 60px;
+      padding: 0 5px 0 5px;
+      margin: auto auto 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+
+      .user-icon, .user-settings {
+        width: 45px;
+        height: 45px;
+        border: 1px solid white;
+        border-radius: 2em;
+        margin: auto 5px auto 5px;
+      }
+      .user-displayName, .user-userName {
+        display: flex;
+        height: fit-content;
+        width: 45%;
+        margin: auto;
+      }
+      .user-displayName {
+        font-family: ChirpBold, sans-serif;
+        margin-bottom: 0;
+      }
+      .user-userName {
+        margin-top: 0;
+        color: rgb(100,100,100)
+      }
     }
   }
 }
