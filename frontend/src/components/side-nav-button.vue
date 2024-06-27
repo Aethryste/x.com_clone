@@ -48,7 +48,7 @@ export default {
     padding: 10px;
     display: flex;
     flex-direction: row;
-    margin: 5px;
+    margin: 8px;
     transition: 200ms;
     .navButton-icon {
       display: flex;
@@ -61,7 +61,7 @@ export default {
       height: fit-content;
       width: fit-content;
       font-size: 1.3em;
-      margin: auto 15px auto 15px;
+      margin: auto 15px auto 18px;
       color: rgb(255, 255, 255, 0.9)
     }
   }

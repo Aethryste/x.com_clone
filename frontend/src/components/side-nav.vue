@@ -78,6 +78,7 @@ export default {
                        :display-text="button.displayText"
                        :is-first="index === 0"
       />
+      <button class="button-post">Post</button>
     </div>
   </header>
 </template>
@@ -85,7 +86,7 @@ export default {
 <style scoped>
 .side-nav-container {
   border-right: 1px solid rgba(255, 255, 255, 0.2);
-  width: 30%;
+  width: 31%;
   min-height: 100%;
   margin: 0;
   top: 0;
@@ -99,6 +100,18 @@ export default {
     margin: auto 0 auto auto;
     justify-content: start;
     flex-grow: 2;
+    .button-post {
+      font-family: ChirpBold, sans-serif;
+      font-size: 1.05em;
+      color: white;
+      width: 85%;
+      height: 52px;
+      background: rgb(29, 155, 240);
+      margin: 16px auto 16px 5px;
+      border: none;
+      border-radius: 2em;
+      cursor: pointer;
+    }
   }
 }
 </style>
